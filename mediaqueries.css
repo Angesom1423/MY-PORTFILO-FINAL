@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+
+  /* Global size fixing */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navigation  corrector to smaller screen */
+
+  nav {
+    justify-content: space-between;
+    padding: 0 20px;
+    height: auto;
+  }
+
+  /* menu icon smaller screen size corrector */
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .menu-icon span {
+    display: block;
+    height: 4px;
+    background: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* menu icone animation */
+  .menu-icon.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  .menu-icon.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+  /* Menu */
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+
+  .menu li {
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .menu a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  /*   PICTURE size corrector */
+
+  #picture {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 20px 0;
+   
+  }
+
+  #pictures {
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+  }
+
+  /* text size corrector to smaller screen size*/
+
+  .identity {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #identity-five {
+    margin-left: 0;
+  }
+
+  /* ABOUT SECTION  corrector to smaller screen size */
+
+  .introduction-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #introduction {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .image-two {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+  }
+
+  /* part of EXPERIENCE smaller screen size corrector*/
+
+  #alinment {
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  /*  BUTTON corrector */
+
+  #btn {
+    width: 140px;
+    font-size: 16px;
+  }
+
+  /* SKILLS and  ICONS corrector */
+
+  #mandatory-icons,
+  #additional-info-media {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 40px;
+    align-items: center;
+  }
+
+  #icons-resized-equally {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* TITLES of page four size corrector*/
+
+  #title-page-four,
+  #exprience-title,
+  #About-me {
+    font-size: 28px;
+    text-align: center;
+  }
+
+}

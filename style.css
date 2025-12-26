@@ -1,0 +1,259 @@
+/* general style sheet my pages*/
+/* Poppins font family */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+#{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+p {
+    color: black;
+}
+/* my transtions */
+a,btn{
+    transition:all 3ooms ease;
+}
+/*desktop navigation make them horizontal*/
+nav,.menu{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 2rem;
+    list-style: none;
+}
+nav{justify-content: space-around;
+    align-items: center;
+    height:17vh;
+}
+a{
+    color: black;
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    
+}
+@media (max-width: 768px) {
+
+/*Menu icon */
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  height: 4px;
+  background: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Animation when active */
+.menu-icon.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Menu */
+.menu {
+  display: none;
+  margin-top: 20px;
+
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+
+}
+
+
+/* Show menu */
+.menu.show {
+  display: block;
+}}
+
+#picture{
+    display: flex;
+    gap: 10rem;
+}
+#pictures{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: auto 0;
+    margin-left: 80px;
+    border-radius: 70px;
+    background-color: rgb(209, 68, 8);
+}
+.identity{
+font-size:35px;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+background-color:white;
+border-radius: 60px;
+line-height: 30px;
+}
+#identity-one{
+    text-align: center;
+}
+#identity-two{
+text-align: center;
+}
+#identity-four{
+ text-align: center;
+}
+#identity-five{
+    margin-left: 150px;
+
+}
+.github-logo{
+    width: 70px;
+    height: 70px;
+}
+
+#introduction{
+    text-align: center;
+}
+#page-two-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#About-me{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.back-icon-one{
+background-color: white;
+    width: 30px;
+    height: 30px;
+
+}
+.introduction-me{
+    display: flex;
+}
+#introduction{color: rgb(15, 5, 24);
+    width: 600px;
+    height: 400px;
+    background: white;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 14px;
+}
+.image-two{
+width: 300px;
+height: 300px;
+margin-right: 100px;
+margin-left: auto;
+
+}
+
+#intro-page-three{
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif ;
+    margin-top: 40px;
+}
+#exprience-title{
+    text-align: center;
+    font-size: 'Poppins', sans-serif ;
+    font-size: 40px;
+    margin-top: 5px;
+}
+#alinment{margin-top: 50px;
+    display: flex;
+    gap: 200px;
+    padding-left: 300px;
+}
+#rank-text{
+font-size: medium;
+font-weight: bold;
+}
+#btn{color: white;
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+    padding-top: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+#btn:hover{
+    background: rgb(12, 18, 2);
+    text-decoration: none;
+}
+#intro-page-four{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#title-page-four{ margin-top: 0px;
+text-align: center;
+font-size: 40px;
+}
+#mandatory-icons{
+    display: flex;
+    margin-left: 200px;
+    gap: 200px;
+    font-weight: bold;
+}
+#icons-resized-equally{
+    width: 70px;
+    height: 70px;
+
+}
+#additional-info-media{display: flex;
+    font-weight: bold;
+     margin-left: 400px;
+    gap: 200px;
+    margin-top: 120px;
+
+    
+
+}
+#additional-info-media-four{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#additional-info-media-five{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#additional-info-media-five-re{
+    padding-left: 40px;
+}
+#close{font-size: 80px;
+    font-weight: bold;
+    text-align:center ;
+    color: blue;
+}
+#close-final{
+text-align: center;
+font-size: 25px;
+
+}
