@@ -165,5 +165,18 @@
     font-size: 28px;
     text-align: center;
   }
+}
+#close{font-size: 80px;
+    font-weight: bold;
+    color: blue;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 
+}
+
+@keyframes myAnimation {
+  0%   {color:rgb(200, 255, 0); left:0px; top:0px;}
+  100% {color:rgb(69, 43, 241); left:700px; top:0px;}
 }
