@@ -555,9 +555,8 @@ font-size: 40px;
 #close-final{
 text-align: center;
 font-size: 25px;
-
 }
-#close{font-size: 50px;
+#close{font-size: 60px;
     font-weight: bold;
     color: blue;
   position: relative;
@@ -569,7 +568,6 @@ font-size: 25px;
 
 @keyframes myAnimation {
   0%   {color:red; left:50px; top:0px;}
-  100% {color:rgb(79, 70, 25); left :650px; top:0px;}
+  100% {color:rgb(79, 70, 25); left :300px; top:0px;}
 }
-
 }
