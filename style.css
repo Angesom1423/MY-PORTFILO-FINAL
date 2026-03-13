@@ -313,7 +313,7 @@ a:hover {
 }
 
 #close {
-    font-size: 80px;
+    font-size: 30px;
     font-weight: bold;
     color: blue;
 }
@@ -321,9 +321,9 @@ a:hover {
 #close-final {
     text-align: center;
     font-size: 25px;
-
 }
-#close {
+
+close {
     font-size: 30px;
     font-weight: bold;
     color: blue;
@@ -332,9 +332,8 @@ a:hover {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-@keyframes myAnimation {
+} 
+    @keyframes myAnimation {
     0% {
         color: red;
         left: 50px;
@@ -343,7 +342,7 @@ a:hover {
 
     100% {
         color: rgb(79, 70, 25);
-        left: 50px;
+        left: 150px;
         top: 0px;
     }
 }
