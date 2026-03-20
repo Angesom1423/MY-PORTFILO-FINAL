@@ -1,9 +1,4 @@
-/* general style sheet my pages*/
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-#{
- padding: 0;
-margin: 0;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -20,6 +15,11 @@ p {
 a,
 btn {
     transition: all 3ooms ease;
+}
+
+.contact-section {
+    text-align: center;
+
 }
 
 /*desktop navigation make them horizontal*/
@@ -119,14 +119,7 @@ a:hover {
     width: 400px;
     height: 400px;
     transition: width 4s, height 4s, background-color 4s, transform 4s;
-    transform: rotate(360deg);
-}
-
-#pictures:hover {
-    width: 400px;
-    height: 400px;
-    transition: width 4s, height 4s, background-color 4s, transform 4s;
-    transform: rotate(360deg);
+    transform:rotatex(360deg) rotatey(360deg);
 }
 
 .identity {
@@ -226,6 +219,7 @@ a:hover {
 }
 
 #alinment {
+    text-align: center;
     margin-top: 50px;
     display: flex;
     gap: 200px;
@@ -252,6 +246,7 @@ a:hover {
     border: 1px solid;
     cursor: pointer;
     margin-top: 40px;
+    margin-left: 50px;
 
 }
 
@@ -276,9 +271,10 @@ a:hover {
 
 #mandatory-icons {
     display: flex;
-    margin-left: 200px;
     gap: 200px;
     font-weight: bold;
+    align-items: center;
+    margin-left: 200px;
 }
 
 #icons-resized-equally {
@@ -318,7 +314,6 @@ a:hover {
     font-weight: bold;
     color: blue;
 }
-
 #close-final {
     text-align: center;
     font-size: 25px;
